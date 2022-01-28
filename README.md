@@ -22,11 +22,11 @@ This project formed  of tiers of DataAccess , Entities ,  UI  and Console.
 #HangfireConsole
   - Manager classes execute jobs of Hangfire .
 
-   # SystemManager
+   #SystemManager
 
    - This class's job save datas about users table every 15 minutes.System admin can  track "Hangfire.Project"" with GetReport end point of SystemController . This data for inform to admin. 
 
-   # UserManager
+   #UserManager
 
    - This class's job update isActive column of users that created between 08.00 and 18.00 hour  every day 18.00  hour. 
 
