@@ -4,22 +4,22 @@ This project is about using Hangfire library of .Net Core.
 
 This project formed  of tiers of DataAccess , Entities ,  UI  and Console.
 
-#Entities Tier
+# Entities Tier
 
  - User and SystemInformation class corresponds to the table in the database.I marked this class by IEntity interfaces.Because , I  report classes which marked by IEntity are table of database.
 
-#DataAccess Tier 
+# DataAccess Tier 
 
  - I defined operations which I do on the database in IRepositoryBase.
  - I used Entity Framework for connect to database.But you can use Dapper Library for connect.You should fill with  operations of  Dapper  to Dapper Repository classes.
  - I used Unit of Work and Repository Pattern in here.
  - I used  MSSQL  as database.
 
-#UI Tier
+# UI Tier
 
   -I created Web Api project in here . This api is doing operation with datas of user and systeminformation.
 
-#HangfireConsole
+# HangfireConsole
   - Manager classes execute jobs of Hangfire .
 
    #SystemManager
